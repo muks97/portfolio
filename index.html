@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Mukesh Viswanathan</h1>
+            <h2>Software Engineer</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        With a robust exposure from engineering Fullstack applications, I find in myself the scope and inclination to develop highly scalable software that could have a wider reach and use cases. 
+                        In order to get there, I believe that launching my career in this field would be the best way to go forward. 
+                        I had always shown a keen interest in the core subjects in Computer Science and also excelled in subjects such as Data Mining, Cloud Computing, Machine Learning and Artificial Intelligence. 
+                        I am stronger now than before and want to take this opportunity to go the extra mile.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="April 2020 – Present">
+                <h3>Western Michigan University</h3>
+                <h4>Graduate Research Assistant</h4>
+                <p>
+                    Working on optimizing the cost and power efficieny in Additive Manufacturing (3D Printing) using Topology Optimization technique and Machine Learning algorithms. The research focuses on constructing the 3 Dimentional structure and formulate an energy minimization algorithm. Built an Image processor using OpenCV to construct the dimensions of the necessary product.
+        
+                </p>
+            </div>
+
+            <div data-date="April 2018 – August 2019">
+                <h3>Intelizest Technologies, India</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    Built a Recommender system that is trained to suggest available garages/storages for rental/sale to target-users. 
+                    Developed a machine learning algorithm, based on Content-Based and Collaborative Filtering, that computes similarity scores of the pre-tagged characteristics of garages and using the correlation values to cluster the target- user and other users. 
+                    Dockerized and deployed the application onto AWS S3 bucket and reported a significant boost in revenues and click-throughs.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Western Michigan University</h3>
+            <span class="education-date">August 2019 - December 2021</span>
+            <h4>Master of Science in Computer Science</h4>
+            <p>
+                GPA: 3.50/4.0. Graduate Research Assistant, specializing in Data Mining, Machine Learning and Artificial Intelligence.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Amrita Viswa Vidyapeetham</h3>
+            <span class="education-date">August 2015 - March 2019</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Research Assistant at Amrita Vishwa Vidyapeetham Research Labs.
+                </li>
+                <li>
+                    Research aimed at developing Gesture Controlled Interface. Developed a perceptual computing user interface that allows the computer to capture and interpret pre-defined hand gestures to be used as a feature in smart projectors as a prototype. Built an image processing algorithm for hand recognition, using OpenCV, matplotlib and NumPy, and to plot unique graph points that calculates the distance between the points to assign functionalities to different gestures.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/ambul.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Medical Prognosis</h3>
+                        <p>
+                             Developed a Python application that predicts Diseases based on symptoms by scraping the medical data using Pandas and essential Test-Training model.
+                             Formulated a multimodal Disease Risk Prediction algorithm, using TensorFlow and Keras deep learning API, that features Random Forest, Naive Bayes, Clustering and Decision Tree models reporting an accuracy value of 81.3%.
+                    
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/audio.png" style="height: 240px;"/>
+                    </div> 
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Audio Recognition System</h3>
+                        <p>
+                            Built an application that retrieves the details of a pre-recorded music by recognizing a brief sample of an audio input.
+                            Built a machine learning algorithm that converts audio files to spectrograms by Fast-Fourier-Transform to plot the Peak Findings, using Pandas’s DataFrame transformation, in Frequency-Time graph and perform Fingerprint Hashing on the peak points of large
+                            amount of existing data in search of an accurate match with the data points of the audio input from the subsets train-test split.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>Go</li>
+            <li>AngularJs</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Frameworks</li>
+            <li>Bootstrap</li> 
+            <li>JUnit</li>
+            <li>Swagger</li>
+            <li>React.js</li>
+            <li> Node.js</li> 
+            <li> React Native</li>
+            <li>Hadoop</li>
+            <li>MySQL</li> 
+            <li>MongoDB</li> 
+            <li>MS Access</li> 
+            <li>Oracle Database</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/muks97" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://linkedin.com/mukeshvi" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
